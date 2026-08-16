@@ -14,7 +14,7 @@ The paper is currently under review. To support reproducibility, we are preparin
 
 ## Data availability
 
-The availability and redistribution of the original high-resolution satellite imagery are subject to the terms of the imagery provider. We will clearly document the access procedure, permitted dataset materials, and applicable license conditions. Materials for which redistribution is authorized will be released through this repository or a linked data repository.
+The ADEC-CD dataset will be made publicly available for research use. The dataset, fixed geographic split files, download instructions, and applicable license information will be provided through this repository or a linked data repository before final acceptance.
 
 ## Citation
 
