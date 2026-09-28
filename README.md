@@ -1,18 +1,16 @@
 # FGPMamba: Frequency-Geometry Prior-Guided Mamba for Building Change Detection
 
 This is the official repository for **FGPMamba** and **ADEC-CD**, a high-resolution building change detection dataset covering Egypt’s New Administrative Capital. 
-For more information, please see our published paper at [IEEE Transactions on Geoscience and Remote Sensing](https://ieeexplore.ieee.org/document/11573068).
+For more information, please see our published paper at [International Journal of Applied Earth Observation and Geoinformation](https://ieeexplore.ieee.org/document/11573068).
+
 ![FGPMamba](FGPMamba.jpg)
 
 # FGPMamba code
-
 FGPMamba Link: https://github.com/zjd1836/FGPMamba/blob/main/FGPMamba.py
 
 ## ADEC-CD Dataset
 
-ADEC-CD is a binary building change detection dataset constructed from bitemporal SuperView-2 optical imagery acquired in 2018 and 2024 over Egypt’s New Administrative Capital.
-
-The dataset focuses on large-scale construction monitoring in arid emerging-city environments, where changed buildings may be confused with bare land, concrete surfaces, roads, shadows, construction materials, and unfinished structures.
+ADEC-CD is a binary building change detection dataset constructed from bitemporal SuperView-2 optical imagery acquired in 2018 and 2024 over Egypt’s New Administrative Capital. The dataset focuses on large-scale construction monitoring in arid emerging-city environments, where changed buildings may be confused with bare land, concrete surfaces, roads, shadows, construction materials, and unfinished structures.
 
 ### Dataset characteristics
 
