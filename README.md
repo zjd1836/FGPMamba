@@ -1,11 +1,11 @@
-# FGPMamba and ADEC-CD
+# FGPMamba: Frequency-Geometry Prior-Guided Mamba for Building Change Detection
 
-This is the official repository for **FGPMamba**, a frequency–geometry prior-guided Mamba framework for building change detection, and **ADEC-CD**, a high-resolution building change detection dataset covering Egypt’s New Administrative Capital.
+This is the official repository for **FGPMamba** and **ADEC-CD**, a high-resolution building change detection dataset covering Egypt’s New Administrative Capital. 
+For more information, please see our published paper at [IEEE Transactions on Geoscience and Remote Sensing](https://ieeexplore.ieee.org/document/11573068).
 
-## Updates
-
-* **August 2026:** The ADEC-CD dataset and its fixed geographically independent training, validation, and test partitions are publicly available.
-* The FGPMamba implementation, training configurations, and evaluation scripts are being organized and will be released during the review process and no later than final acceptance.
+# FGPMamba code
+![FGPMamba](FGPMamba.jpg)
+FGPMamba Link: https://github.com/zjd1836/FGPMamba/blob/main/FGPMamba.py
 
 ## ADEC-CD Dataset
 
@@ -40,35 +40,24 @@ The complete cropped and partitioned ADEC-CD dataset can be downloaded from Baid
 
 Please retain the provided training, validation, and test partitions when reproducing the results reported in the manuscript.
 
-## FGPMamba Code
-
-The following materials are being verified and organized:
-
-* FGPMamba implementation;
-* model-specific training configurations;
-* environment and dependency information;
-* evaluation scripts;
-* boundary-evaluation scripts; and
-* large-scene sliding-window inference scripts.
-
-These materials will be released in this repository during the review process and no later than final acceptance.
 
 ## License and Intended Use
 
 ADEC-CD is released for non-commercial academic research and educational use. Users may use the dataset for research, comparison, and reproducibility studies provided that the dataset source and the corresponding paper are properly acknowledged.
-
 Redistribution of modified versions, incorporation into commercial products, or commercial use requires prior permission from the dataset authors. Users are responsible for ensuring that their use of the dataset complies with applicable laws and institutional requirements.
 
 A separate license file will be provided in this repository.
 
-## Citation
+# Citation
+If you use this code or dataset for your research, please cite our paper:  
 
-The manuscript is currently under review. Citation information will be added once the paper record becomes available.
+J. Zhang et al., "S3Mamba: A Scale-Aware Spatial-Spectral Mamba for Building Change Detection in Ultra-High-Resolution UAV Imagery," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2026.3705637.
 
-If you use ADEC-CD in your research, please cite the corresponding paper after its publication and acknowledge this repository.
+or
 
-## Contact
-
-For questions regarding ADEC-CD, FGPMamba, or data access, please open an issue in this repository.
-
-Thank you for your interest in our work.
+@ARTICLE{11573068,
+  author={Zhang, Jindou and Wang, Zihan and Xiao, Xiongwu and Zhang, Zhizheng and Zhang, Yongle and Chen, Yunong and Hu, Yaofeng and Shao, Zhenfeng and Li, Deren and Konecny, Milan},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={S3Mamba: A Scale-Aware Spatial-Spectral Mamba for Building Change Detection in Ultra-High-Resolution UAV Imagery}, 
+  year={2026},
+  doi={10.1109/TGRS.2026.3705637}}
