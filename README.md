@@ -2,9 +2,10 @@
 
 This is the official repository for **FGPMamba** and **ADEC-CD**, a high-resolution building change detection dataset covering Egypt’s New Administrative Capital. 
 For more information, please see our published paper at [IEEE Transactions on Geoscience and Remote Sensing](https://ieeexplore.ieee.org/document/11573068).
+![FGPMamba](FGPMamba.jpg)
 
 # FGPMamba code
-![FGPMamba](FGPMamba.jpg)
+
 FGPMamba Link: https://github.com/zjd1836/FGPMamba/blob/main/FGPMamba.py
 
 ## ADEC-CD Dataset
